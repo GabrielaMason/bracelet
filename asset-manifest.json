@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bracelet/static/css/main.871a03f9.css",
-    "main.js": "/bracelet/static/js/main.8c371750.js",
+    "main.js": "/bracelet/static/js/main.eeb0184f.js",
     "static/js/787.25618ae2.chunk.js": "/bracelet/static/js/787.25618ae2.chunk.js",
     "static/media/all_bands.png": "/bracelet/static/media/all_bands.eb33a7bd083407545789.png",
     "static/media/Sunset.png": "/bracelet/static/media/Sunset.d1afd79820a4ed87e70b.png",
@@ -17,11 +17,11 @@
     "static/media/CURP.svg": "/bracelet/static/media/CURP.f48ab32d842c8fe02a23c74c045940f4.svg",
     "static/media/profile.svg": "/bracelet/static/media/profile.6f74c1172243a4e3d6cb329ca8f97293.svg",
     "main.871a03f9.css.map": "/bracelet/static/css/main.871a03f9.css.map",
-    "main.8c371750.js.map": "/bracelet/static/js/main.8c371750.js.map",
+    "main.eeb0184f.js.map": "/bracelet/static/js/main.eeb0184f.js.map",
     "787.25618ae2.chunk.js.map": "/bracelet/static/js/787.25618ae2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.871a03f9.css",
-    "static/js/main.8c371750.js"
+    "static/js/main.eeb0184f.js"
   ]
 }
