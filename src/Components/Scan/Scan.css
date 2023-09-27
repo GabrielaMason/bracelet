@@ -1,0 +1,68 @@
+button {
+    background-color: #F1AAA6;
+    border: none;
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+h2 {
+    color: #000000;
+}
+
+.circleProfile {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #BFD1D2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.scanProfile {
+    width: 50%;
+}
+
+.scanProfile path {
+    fill: #000000;
+}
+
+.main_container {
+    height: 85vh;
+}
+
+.contact_row {
+    position: relative;
+    top: 15%;
+}
+
+.infoContainer {
+    background-color: #DEDEDE;
+    border-radius: 10px;
+    width: 70%;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+                            /* ------DARK MODE------ */
+#dark input{
+    background-color: #314455;
+    color: #AAAAAA;
+}
+
+#dark .name {
+    color: #BFD1D2
+}
+
+#dark .infoContainer{
+    background-color: #314455;
+}
+
+#dark .infoContainer p {
+    color: #BFD1D2;
+}

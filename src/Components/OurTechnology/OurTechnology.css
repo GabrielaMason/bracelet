@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap');
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(180deg, #BFD1D2 0%, #F1AAA6 49%, #D7D2CC 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 1em;
+    box-shadow: 1px 15px 41px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 1px 15px 41px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 1px 15px 41px 0px rgba(0,0,0,0.25);
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.tags {
+    font-family: 'Great Vibes', cursive;
+    font-size: larger;
+}
+
+                        /* --------------Dark mode---------------- */
+#dark .text_tech {
+    color: #878787;
+}
+
+#dark .text_circle{
+    color: #314455;
+}
+
+#dark .circle {
+    box-shadow: 1px 15px 41px 0px rgb(49, 68, 85);;
+    -webkit-box-shadow: 1px 15px 41px 0px rgb(49, 68, 85);;
+    -moz-box-shadow: 1px 15px 41px 0px rgb(49, 68, 85);;
+}

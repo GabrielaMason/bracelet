@@ -1,0 +1,27 @@
+.contact_container {
+    height: 90vh;
+}
+
+                        /* ---- Dark Mode ---- */
+
+#dark h3 {
+    color: #878787
+}
+
+#dark textarea {
+    background-color: #314455;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 600px) {
+    .message{
+        margin-top: 2em;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) {
+    .contact_input {
+        width: 50%;
+    }
+}

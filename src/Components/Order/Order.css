@@ -1,0 +1,103 @@
+/* File Form */
+.uploaders {
+    text-align: center;
+}
+
+.uploaders div{
+    margin-bottom: 1em;
+}
+
+.button-upload {
+    height: 200px;
+    width: 250px;
+    background-color: #D7D2CC;
+}
+
+.svgFile path {
+    fill: #000000;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+/* Medical Form */
+.medical_container {
+    width: 90%;
+    margin: auto;
+}
+
+/* BusinessForm */
+#band {
+    height: 300px;
+    width: 300px;
+}
+
+/* Color Form */
+.band-option {
+    border-radius: 20px;
+    background-color: #DEDEDE;
+    box-shadow: 1px 15px 41px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 1px 15px 41px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 1px 15px 41px 0px rgba(0,0,0,0.25);
+}
+
+.colorSelected {
+    background-color: #D7D2CC;
+}
+
+/* ----------------- DARK MODE ----------------- */
+
+/* File Form */
+
+#dark .button-upload {
+    background-color: #314455;
+}
+
+#dark .button-upload p {
+    color: #AAAAAA;
+}
+
+#dark .svgFile path {
+    fill: #AAAAAA;
+}
+
+/* Medical Form */
+#dark select {
+    background-color: #314455;
+    color: #AAAAAA;
+}
+
+#dark label {
+    color: #878787
+}
+
+/* Color Form */
+#dark .band-option {
+    background-color: #314455;
+}
+
+/* Mobile */
+@media only screen and (min-width: 1200px) {
+    .uploaders {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* Medical Form */
+    .small-input {
+        width: 200px;
+    }
+    .text-area {
+        width: 400px;
+    }
+    /* Business Form */
+    .business-input {
+        width: 300px;
+    }
+}

@@ -1,0 +1,89 @@
+/* Banner */
+.btn_order {
+    background: #F1AAA6;
+    color: #FFFFFF; 
+    border-radius: 10px;
+    border: none;
+    width: 110px;
+    height: 40px;
+}
+
+#all_bands {
+    width: 100%;
+}
+
+/* Advantages */
+
+.adv_col {
+    height: 500px;
+}
+
+.adv_container {
+    height: 100%;
+    border-radius: 25px;
+    padding: 1em;
+    box-shadow: 1px 15px 41px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 1px 15px 41px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 1px 15px 41px 0px rgba(0,0,0,0.25);
+}
+
+#adv_1 {
+    background-color: #D7D2CC;
+}
+
+#adv_2 {
+    background-color: #F1AAA6;
+}
+
+#adv_3 {
+    background-color: #BFD1D2;
+}
+
+h2 {
+    font-weight: bold;
+    color: #FFFF;
+}
+
+p {
+    color: #333333;
+    font-weight: bold;
+}
+
+                                                        /* --- DARK MODE --- */
+
+/* Advantages */
+#dark .img_adv path {
+    fill: #314455;
+}
+
+#dark h2 {
+    color: #314455;
+}
+
+#dark .adv_container {
+    box-shadow: 1px 15px 41px 0px rgb(49, 68, 85);;
+    -webkit-box-shadow: 1px 15px 41px 0px rgb(49, 68, 85);;
+    -moz-box-shadow: 1px 15px 41px 0px rgb(49, 68, 85);;
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        text-align: center;
+    }
+
+    .banner {
+        margin-bottom: 1em;
+    }
+
+    .adv_col {
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .advantages_container {
+        height: 100vh;
+    }
+}
