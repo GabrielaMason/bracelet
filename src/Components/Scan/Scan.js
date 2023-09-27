@@ -8,20 +8,20 @@ export default function Scan(){
                 <div className="circleProfile">
                     <Profile className='scanProfile'/>
                 </div>
-                <h2 className="my-4 name">Alan Seymour Raimond</h2>
+                <h2 className="my-4 name">Gabriela Velázquez Mason</h2>
             </div>
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
                         <div className="infoContainer">
                             <p>Blood Type</p>
-                            <p>O+</p>
+                            <p>A+</p>
                         </div>
                     </div>
                     <div className="col-md-6">
                         <div className="infoContainer">
                             <p>Medical Affiliation</p>
-                            <p>IMSS 23843297535</p>
+                            <p>PEMEX 14600738</p>
                         </div>
                     </div>
                 </div>
@@ -29,13 +29,13 @@ export default function Scan(){
                     <div className="col-md-6">
                         <div className="infoContainer">
                             <p>Emergency Number</p>
-                            <p>5532881234</p>
+                            <p>+52 5544450598</p>
                         </div>
                     </div>
                     <div className="col-md-6">
                         <div className="infoContainer">
                             <p>Allergies</p>
-                            <p>Peanuts</p>
+                            <p>Mosquito bite</p>
                         </div>
                     </div>
                 </div>
